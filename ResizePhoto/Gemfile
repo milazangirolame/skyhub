@@ -11,6 +11,9 @@ gem 'rails', '~> 5.1.4'
 # Use MongoDB as Database
 gem 'mongoid', '~> 6.1.0'
 gem 'bson_ext'
+gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+gem "mini_magick"
+
 
 
 # Use Puma as the app server
