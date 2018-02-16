@@ -1,5 +1,6 @@
 class Photo
   include Mongoid::Document
-  attr_accessible :photo, :photo_cache
+  attr_accessible :image,
+  mount_uploader :image, ImagesUploader
 
 end
